@@ -2,11 +2,11 @@
 
 ## 概要
 
-左右 Alt キーの空打ちで IME を OFF/ON する AutoHotKey スクリプトです。
+左右 Alt キーの空打ちで IME を OFF/ON する AutoHotKey スクリプトをAlt → Controlに変更したものです。
 
-* 左 Alt キーの空打ちで IME を「英数」に切り替え
-* 右 Alt キーの空打ちで IME を「かな」に切り替え
-* Alt キーを押している間に他のキーを打つと通常の Alt キーとして動作
+* 左 Control キーの空打ちで IME を「英数」に切り替え
+* 右 Control キーの空打ちで IME を「かな」に切り替え
+* Control キーを押している間に他のキーを打つと通常の Control キーとして動作
 
 ## 動作環境
 
@@ -14,11 +14,11 @@
 
 ## 使い方
 
-[alt-ime-ahk v0.4.5](https://github.com/karakaram/alt-ime-ahk/releases/download/v0.4.5/alt-ime-ahk.zip) から alt-ime-ahk.zip をダウンロードして解凍し、alt-ime-ahk.exe を好きな場所に置き、起動してください。 タスクトレイに常駐します。
+上記Githubリポジトリからファイルをダウンロードし、alt-ime-ahk.ahk を好きな場所に置き、ダブルクリックで起動してください。 タスクトレイに常駐します。
 
 終了する場合はタスクトレイのアイコンを右クリックし、「終了」をクリックしてください。
 
-アンインストールは alt-ime-ahk.exe を削除するだけで OK です。
+アンインストールは alt-ime-ahk.ahk を削除するだけで OK です。
 
 ## JetBrains 製の IDE で使う場合は Tool Buttons をオンに
 
